@@ -1,0 +1,75 @@
+
+<!DOCTYPE html>
+<html class="no-js">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Template</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Place favicon.ico and apple-touch-icon(s) in the root directory -->
+        <link rel="stylesheet" href="font-awesome-4.0.3/css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/animate.css">
+        <link rel="stylesheet" href="css/style.css">
+        <script src="js/vendor/modernizr-2.7.0.min.js"></script>
+    </head>
+<body>
+     
+	<form class="form-horizontal" role="form" id="reportForm">
+  <div class="form-group">
+    <h3>title</h3>
+    <div id="message"></div>
+      <table >
+          <tr>
+            <td>hello&nbsp;&nbsp;<input type="text" name="user"/></td>
+          </tr>
+          <tr>
+            <td>word&nbsp;&nbsp;
+              <select id="reportType" name="reportType">
+                <option value="0">--Select one--</option>
+                word
+                  <option value=""/>">word</option>
+              
+              </select>
+            </td>
+          </tr>
+      </table>
+      <div id="fields">
+      <div class="row">
+          <label>word</label>
+         	<label>word</label>
+          <label>word</label>
+          <div class="col-sm-10">
+          	<input type="text" name="origTg"/>
+          </div>
+          <label>word</label>
+          <div class="col-sm-10">
+          <input type="text" name="termTg"/></div>
+          <div id="rtInd"><input type="checkbox" checked="checked" name="useRouteTable"/>&nbsp;word</div>
+          <label>word</label>
+          <div class="col-sm-10">
+          <input type="text" name="targetDate"/></div>
+          <label>word</label>
+          <label>word</label><input size="5" type="text" name="span" id="span"/>&nbsp;min
+          <label>word</label> <input type="checkbox" name="shownpa"/>word
+        </div>
+        <div class="row">
+        <div class="col-sm-12"><input type="checkbox" name="showstate"/>word</div>
+        <div class="col-sm-12"><input type="checkbox" name="showlata"/>word</div>
+        <div class="col-sm-12"><input type="checkbox" name="showocn"/>word</div>
+         </div>
+          
+      </div>
+      </div>
+      <div id="buttons">
+  	<button class="btn btn-default" id="generate" value="Generate"/><<button type="reset" id="resetBtn" class="btn btn-default" onClick="this.form.reset();" name="Reset"/>
+      </div>			
+    </div>
+    </form>
+    </div>
+</html>
